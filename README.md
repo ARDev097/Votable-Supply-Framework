@@ -1,4 +1,4 @@
-# 🏛️ Votable Supply and Ideal Votable Supply Forecasting  
+# 🏛️ Votable Supply (FVS) and Ideal Votable Supply (IVS) Forecasting  
 
 ## 📌 Overview  
 
