@@ -73,3 +73,15 @@ Our forecasting models predict votable supply trends and provide an ideal voting
 
 ---
 
+## 📚 Project Resources & Documentation  
+For a detailed understanding of the methodologies, data sources, and execution processes used in this project, refer to the **Project Resources & Documentation** file. It contains:  
+
+- Detailed explanations of methodologies and models  
+- Data sources and preprocessing steps  
+- Execution workflows and analysis techniques  
+- Additional research insights  
+
+📖 **[Read the full Project Resources & Documentation](./Project_Resources_and_Documentation.md)**  
+
+---
+
