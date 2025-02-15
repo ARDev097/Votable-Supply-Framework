@@ -40,6 +40,26 @@ This section explores how Large Language Models (LLMs) can assist in token gover
 
 ---
 
+### 📑 Reports/  
+This directory contains various research reports related to votable supply forecasting and Ideal votable supply calculation and forecasting.  
+
+- **1️⃣ Step-by-Step Execution Workflow for Calculating Ideal Votable Supply (IVS) 📄**  
+  Outlines the execution process for calculating IVS step by step.  
+
+- **2️⃣ Methodology for Calculating and Predicting Ideal Votable Supply 📄**  
+  Explains the approach taken to calculate and predict votable supply.  
+
+- **3️⃣ Methodology for Predicting Future Votable Supply (FVS) 📄**  
+  Details the methodology used to forecast future votable supply.  
+
+- **4️⃣ Votable Supply Prediction Using LLM 🤖**  
+  Covers the approach of using Large Language Models (LLMs) for votable supply prediction.  
+
+- **5️⃣ Predicting Future Votable Supply: Machine Learning Approaches and Results 📊**  
+  Compares multiple ML models used for prediction and presents their results.
+
+---
+
 ## 📈 Key Findings  
 Our forecasting models predict votable supply trends and provide an ideal voting power distribution. The results contribute to governance efficiency by estimating voting power concentration and proposing a balanced distribution approach.  
 
