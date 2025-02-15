@@ -56,7 +56,7 @@ The `Dataset` folder contains all the data used for analysis and predictions rel
   - 📄 `FVS_Daywise_Data.csv` – Daywise Predicted Votable Supply  
 
 - **Future_Circulating_Supply/**
-  - 📄 `FCS_Daywise_Data.csv` – Daywise Predicted Circulating Supply  
+  - 📄 `FCS_Daywise_Data.csv` – Daywise Calculated Circulating Supply  
 
 </details>
 
@@ -64,8 +64,8 @@ The `Dataset` folder contains all the data used for analysis and predictions rel
 <summary><b>📂 Ideal_Votable_Supply_Data/</b> (Click to expand)</summary>
 
 - **All Parameters Data**
-  - 📄 `All_Parameters_Historical_Data.csv` – Historical IVS Parameters  
-  - 📄 `All_Parameters_Future_Data.csv` – Future Predictions for IVS  
+  - 📄 `All_Parameters_Historical_Data.csv` – Historical Parameters Data for IVS  
+  - 📄 `All_Parameters_Future_Data.csv` – Future Parameters Predictions Data for IVS  
   - 📄 `All_Parameters_Data.csv` – Combined Data (Historical & Predicted)  
 
 - **Weight Calculations**
