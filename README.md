@@ -16,7 +16,7 @@ Contains all historical and predicted data used for forecasting votable supply a
 - **Historical_Data/**: Stores raw and processed historical data for key metrics such as liquidity activity ratio (LAR), actual voting power index (AVPI), OP price, participation ratio (PR), circulating supply (CS), and votable supply (VS).  
 - **Prediction_Data/**: Contains forecasted values for various parameters used in predicting votable supply and Ideal votable supply.  
 - **Future_Votable_Supply/**: Includes day-wise votable supply predictions.  
-- **Future_Circulating_Supply/**: Stores predicted future circulating supply data.  
+- **Future_Circulating_Supply/**: Stores calculated future circulating supply data.  
 - **Ideal_Votable_Supply_Data/**: Contains comprehensive datasets for IVS calculations, including historical and forecasted values, weight combinations, and final IVS predictions.  
 
 ---
