@@ -7,23 +7,23 @@ Explore detailed reports on the methodologies, execution workflows, and machine 
 
 1️⃣ **Step-by-Step Execution Workflow for Calculating Ideal Votable Supply (IVS)** 📄  
    - Outlines the execution process for calculating IVS step by step.  
-   - 👉 <a href="Documentation/Execution_Steps_to_Calculate_Ideal_Votable_Supply(IVS).pdf" target="_blank">Open PDF</a>  
+   - 👉 <a href="Reports/Execution_Steps_to_Calculate_Ideal_Votable_Supply(IVS).pdf" target="_blank">Open PDF</a>  
 
 2️⃣ **Methodology for Calculating and Predicting Ideal Votable Supply** 📄  
    - Explains the approach taken to calculate and predict votable supply.  
-   - 👉 <a href="Documentation/Methodology_for_Calculating_and_Predicting_Ideal_Votable_Supply.pdf" target="_blank">Open PDF</a>  
+   - 👉 <a href="Reports/Methodology_for_Calculating_and_Predicting_Ideal_Votable_Supply.pdf" target="_blank">Open PDF</a>  
 
 3️⃣ **Methodology for Predicting Future Votable Supply (FVS)** 📄  
    - Details the methodology used to forecast future votable supply.  
-   - 👉 <a href="Documentation/Methodology_for_Predicting_Future_Votable_Supply(FVS).pdf" target="_blank">Open PDF</a>  
+   - 👉 <a href="Reports/Methodology_for_Predicting_Future_Votable_Supply(FVS).pdf" target="_blank">Open PDF</a>  
 
 4️⃣ **Votable Supply Prediction Using LLM** 🤖  
    - Covers the approach of using Large Language Models (LLMs) for votable supply prediction.  
-   - 👉 <a href="Documentation/Votable_Supply_Prediction_Using_LLM.pdf" target="_blank">Open PDF</a>  
+   - 👉 <a href="Reports/Votable_Supply_Prediction_Using_LLM.pdf" target="_blank">Open PDF</a>  
 
 5️⃣ **Predicting Future Votable Supply: Machine Learning Approaches and Results** 📊  
    - Compares multiple ML models used for prediction and presents their results.  
-   - 👉 <a href="Documentation/Predicting_Future_Votable_Supply_in_Optimism_Machine_Learning_Approaches_and_Results.pdf" target="_blank">Open PDF</a>  
+   - 👉 <a href="Reports/Predicting_Future_Votable_Supply_in_Optimism_Machine_Learning_Approaches_and_Results.pdf" target="_blank">Open PDF</a>  
 
 ## 📂 **Datasets & Visual Resources**  
 
