@@ -137,7 +137,7 @@ This folder contains future predicted values for key parameters used in VS and I
 ---
 
 ### 🔹 `Future_Circulating_Supply/`
-- `FCS_Daywise_Data.csv`: Future circulating supply estimates.
+- `FCS_Daywise_Data.csv`: Calculated Future circulating supply.
 
 ---
 
