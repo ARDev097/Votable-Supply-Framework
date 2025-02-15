@@ -1,5 +1,9 @@
 # 🏛️ Votable Supply (FVS) and Ideal Votable Supply (IVS) Forecasting  
 
+<p align="center">
+  <img src="./Reports/OP.png" alt="Optimism Logo" />
+</p>
+
 ## 📌 Overview  
 
 This repository contains data, models, and methodologies for forecasting **Votable Supply (VS)** and **Ideal Votable Supply (IVS)** in the Optimism ecosystem. The project utilizes historical governance and tokenomics data to build predictive models using various machine learning techniques. The primary goal is to estimate future votable supply trends and derive an ideal voting power distribution.  
