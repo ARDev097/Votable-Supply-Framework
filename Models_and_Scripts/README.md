@@ -64,7 +64,7 @@ This section contains scripts that systematically compute **Ideal Votable Supply
 |---------|----------|
 | `01_calculate_indexes.ipynb` | Computes various **governance indexes** used for IVS analysis. |
 | `02_prepare_historical_data.ipynb` | Prepares **historical governance data** to establish baseline trends. |
-| `03_calculate_future_circulating_supply.ipynb` | Predicts **Future Circulating Supply (FCS)** using ML model. |
+| `03_calculate_future_circulating_supply.ipynb` | Calculate **Future Circulating Supply (FCS)** using [OP Token Unlock Sheet](https://docs.google.com/spreadsheets/d/1qVMhLmmch3s6XSbiBe8hgD4ntMkPIOhc1WrhsYsQc7M/edit?gid=470961921#gid=470961921). |
 | `04_prepare_future_data.ipynb` | Creates structured **future datasets** for IVS modeling. |
 | `05_merge_and_scale_data.ipynb` | Standardizes and **scales data** for consistency across models. |
 | `06_generate_weight_combinations.ipynb` | Generates **multiple weight combinations** to optimize IVS calculation. |
