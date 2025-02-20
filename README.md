@@ -6,7 +6,7 @@
 
 ## 📌 Overview  
 
-This repository contains data, models, and methodologies for forecasting **Votable Supply (VS)** and **Ideal Votable Supply (IVS)** in the Optimism ecosystem. The project utilizes historical governance and tokenomics data to build predictive models using various machine learning techniques. The primary goal is to estimate future votable supply trends and derive an ideal voting power distribution.  
+This repository contains data, models, and methodologies for forecasting **Votable Supply (VS)** and **Ideal Votable Supply (IVS)** in the Optimism ecosystem. The project utilizes historical governance and tokenomics data to build predictive models using various machine learning techniques. The primary goal is to estimate future votable supply trends and derive an ideal votable supply.  
 
 ---
 
@@ -26,7 +26,7 @@ Contains all historical and predicted data used for forecasting votable supply a
 ---
 
 ### 🧠 Models_and_Scripts/  
-This directory houses machine learning models and scripts used for data processing, prediction, and IVS calculations.  
+This directory houses machine-learning models and scripts used for data processing, prediction, and IVS calculations.  
 
 - **Parameters_Prediction/**: Contains individual parameter forecasting scripts (Liquidity Activity Ratio, Actual Voting Power Index, OP Price, and Participation Ratio).  
 - **Future_Votable_Supply/**: Implements the main votable supply forecasting model.  
