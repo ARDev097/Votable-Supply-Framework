@@ -1,0 +1,86 @@
+general:
+  seed: 42
+
+avpi:
+  data:
+    historical_data_path: "../../Dataset/Historical_Data/Actual_Voting_Power_Index/AVPI_Historical_Data.csv"
+    prediction_output_path: "../../Dataset/Prediction_Data/Actual_Voting_Power_Index/AVPI_Future_Data.csv"
+  model:
+    lstm_units: 100
+    dropout_rate: 0.2
+    dense_units: 50
+    optimizer: "adam"
+    loss_function: "mse"
+    epochs: 50
+    batch_size: 16
+  sequence:
+    seq_length: 30
+  split_ratio:
+    train_test_split_ratio: 0.8
+  forecast:
+    forecast_start_date: '2024-12-01'
+    forecast_end_date: '2026-12-31'
+    fluctuation_factor: 0.05
+
+op_price:
+  data:
+    historical_data_path: "../../Dataset/Historical_Data/OP_Price/OP_Price_Historical_Data.csv"
+    prediction_output_path: "../../Dataset/Prediction_Data/OP_Price/OP_Price_Future_Data.csv"
+  model:
+    lstm_units: 100
+    dropout_rate: 0.2
+    dense_units: 50
+    optimizer: "adam"
+    loss_function: "mse"
+    epochs: 50
+    batch_size: 16
+  sequence:
+    seq_length: 30
+  split_ratio:
+    train_test_split_ratio: 0.8
+  forecast:
+    forecast_start_date: '2024-12-01'
+    forecast_end_date: '2026-12-31'
+    fluctuation_factor: 0.05
+
+lar_prediction:
+  data:
+    historical_data_path: "../../Dataset/Historical_Data/Liquidity_Activity_Ratio/LAR_Historical_Data.csv"
+    prediction_output_path: "../../Dataset/Prediction_Data/Liquidity_Activity_Ratio/LAR_Future_Data.csv"
+  model:
+    lstm_units_1: 100
+    dropout_rate_1: 0.2
+    lstm_units_2: 100
+    dropout_rate_2: 0.2
+    lstm_units_3: 50
+    dense_units: 25
+    optimizer: "adam"
+    learning_rate: 0.001
+    loss_function: "mse"
+    epochs: 150
+    batch_size: 16
+  sequence:
+    seq_length: 16  
+  split_ratio:
+    train_test_split_ratio: 0.8
+  forecast:
+    forecast_start_date: '2024-12-01'
+    forecast_end_date: '2026-12-31'
+    fluctuation_factor: 0.05
+    retrain: True
+    batch_size: 10
+  training:
+    patience: 10  
+    random_seed: 42  
+
+pr_calculation:
+  data:
+    circulating_supply_file: "../../Dataset/Future_Circulating_Supply/FCS_Daywise_Data.csv"
+    votable_supply_file: "../../Dataset/Future_Votable_Supply/FVS_Daywise_Data.csv"
+    output_file: "../../Dataset/Prediction_Data/Participation_Ratio/PR_Future_Data.csv"
+  calculation:
+    circulating_supply_column: "Circulating Supply"
+    votable_supply_column: "Predicted_Votable_Supply"
+    pr_column: "PR"
+
+

@@ -1,0 +1,108 @@
+# config.yaml
+
+general:
+  data:
+    # Path to the OP_Price historical data
+    op_price_historical_data_path: "../../Dataset/Historical_Data/OP_Price/OP_Price_Historical_Data.csv"
+    # Path to the AVPI historical data
+    avpi_historical_data_path: "../../Dataset/Historical_Data/Actual_Voting_Power_Index/AVPI_Historical_Data.csv"
+    # Path to the PR historical data
+    pr_historical_data_path: "../../Dataset/Historical_Data/Participation_Ratio/PR_Historical_Data.csv"
+    # Path to the LAR historical data
+    lar_historical_data_path: "../../Dataset/Historical_Data/Liquidity_Activity_Ratio/LAR_Historical_Data.csv"
+    # Path to the Votable Supply historical data
+    vs_historical_data_path: "../../Dataset/Historical_Data/Votable_Supply/VS_Historical_Data.csv"
+    # Path to the Circulating Supply historical data
+    cs_historical_data_path: "../../Dataset/Historical_Data/Circulating_Supply/CS_Historical_Data.csv"
+
+    # Path to the OP_Price predicted data
+    op_price_future_data_path: "../../Dataset/Prediction_Data/OP_Price/OP_Price_Future_Data.csv"
+    # Path to the AVPI predicted data
+    avpi_future_data_path: "../../Dataset/Prediction_Data/Actual_Voting_Power_Index/AVPI_Future_Data.csv"
+    # Path to the PR predicted data
+    pr_future_data_path: "../../Dataset/Prediction_Data/Participation_Ratio/PR_Future_Data.csv"
+    # Path to the LAR predicted data
+    lar_future_data_path: "../../Dataset/Prediction_Data/Liquidity_Activity_Ratio/LAR_Future_Data.csv"
+    # Path to the Votable Supply predicted data
+    vs_future_data_path: "../../Dataset/Future_Votable_Supply/FVS_Daywise_Data.csv"
+    # Path to the Circulating Supply predicted data
+    cs_future_data_path: "../../Dataset/Future_Circulating_Supply/FCS_Daywise_Data.csv"
+
+calculate_indexes:
+  data:
+    # Path to the AVPI raw data
+    avpi_raw_data_path: "../../Dataset/Historical_Data/Actual_Voting_Power_Index/AVPI_Raw_Data.csv"
+    # Path to the LAR raw data
+    lar_raw_data_path: "../../Dataset/Historical_Data/Liquidity_Activity_Ratio/LAR_Raw_Data.csv"
+    # Path to the PR raw data
+    pr_raw_data_path: "../../Dataset/Historical_Data/Participation_Ratio/PR_Raw_Data.csv"
+
+prepare_historical_data:
+  data:
+    # Path to the all parameters historical data
+    merged_historical_data_path: "../../Dataset/Ideal_Votable_Supply_Data/All_Parameters_Historical_Data.csv"
+
+calculate_future_circulating_supply:
+  forecasted_circulating_supply:
+    # Forecasted Circulating Supply Yearly Targets
+    year_2024_2025: 1_695_895_615
+    year_2025_2026: 2_458_161_470
+    year_2026_2027: 2_827_999_809
+
+prepare_future_data:
+  data:
+    # Path to the all parameters predicted data
+    merged_future_data_path: "../../Dataset/Ideal_Votable_Supply_Data/All_Parameters_Future_Data.csv"
+
+merge_and_scale_data:
+  data:
+    # Path to the all parameters merged historical and future data
+    all_parameters_merged_data_path: "../../Dataset/Ideal_Votable_Supply_Data/All_Parameters_Data.csv"
+
+  correlation_analysis:
+    # Weight ranges for all parameters
+    weight_ranges: 
+      PR_low: 0.23
+      PR_high: 0.51
+      LAR_low: 0.19
+      LAR_high: 0.47
+      OP_Price_low: 0.15
+      OP_Price_high: 0.43
+      AVPI_low: 0.00
+      AVPI_high: 0.15
+
+generate_weight_combinations:
+  data:
+    # Path to all the csv files of different weight combinations
+    all_weight_combinations_folder_path: "../../Dataset/Ideal_Votable_Supply_Data/all_weight_combinations"
+
+calculate_IVS:
+  # Parameters for IVS
+  parametres:
+    alpha: 0.7
+    beta: 1.35
+
+ideal_weights:
+  parameters:
+    # Weights of all scores
+    monotonicity_score_weight: 0.5
+    std_deviation_weight: 0.3
+    avg_proportional_increase_weight: 0.2
+
+  data:
+    # Path to ideal weights data 
+    ideal_weights_data_path: "../../Dataset/Ideal_Votable_Supply_Data/ideal_weights.csv"
+
+calculate_final_IVS:
+  data:
+    # Path to the final calculated IVS data 
+    calculated_daily_IVS_data_path: "../../Dataset/Ideal_Votable_Supply_Data/Calculated_IVS/All_Parameters_Data_with_IVS.csv"
+    calculated_monthly_IVS_data_path: "../../Dataset/Ideal_Votable_Supply_Data/Calculated_IVS/Calculated_Monthly_VS_and_IVS.csv"
+
+predicted_IVS:
+  data:
+    # Path to the predicted IVS data
+    predicted_daily_IVS_data_path: "../../Dataset/Ideal_Votable_Supply_Data/Predicted_IVS/IVS_Predictions.csv"
+    predicted_monthly_IVS_data_path: "../../Dataset/Ideal_Votable_Supply_Data/Predicted_IVS/Predicted_Monthly_VS_and_IVS.csv"
+
+

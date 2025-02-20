@@ -1,0 +1,36 @@
+dataset_paths:
+  price_data: "../../Dataset/Historical_Data/OP_Price/OP_Price_Historical_Data.csv"
+  circulating_supply_data: "../../Dataset/Historical_Data/Circulating_Supply/CS_Historical_Data.csv"
+  votable_supply_data: "../../Dataset/Historical_Data/Votable_Supply/VS_Historical_Data.csv"
+  future_circulating_supply_data: "../../Dataset/Future_Circulating_Supply/FCS_Daywise_Data.csv"
+  output_predictions: "../../Dataset/Future_Votable_Supply/FVS_Daywise_Data_Demo1.csv"
+
+prediction_settings:
+  target_date: "2026-12-31"
+  batch_size: 30
+  sequence_length: 60
+  epochs: 50
+  model_learning_rate: 0.001
+  dropout_rate: 0.2
+  lstm_units_1: 100
+  lstm_units_2: 50
+  dense_units_1: 25
+
+random_seeds:
+  seed: 42
+
+date_format:
+  price_data: "%d-%m-%Y"
+  circulating_votable_data: "%d-%m-%Y"
+  future_circulating_supply_data: "%Y-%m-%d"
+
+scaling_method: "minmax"  
+
+plot_settings:
+  figure_size: [15, 7]
+  xticks_rotation: 45
+  tight_layout: true
+  title: "Votable Supply: Historical and Predicted (Until Dec 2026)"
+  xlabel: "Date"
+  ylabel: "Votable Supply"
+
