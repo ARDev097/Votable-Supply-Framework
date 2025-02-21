@@ -1,7 +1,7 @@
 # 🏛️ Votable Supply (FVS) and Ideal Votable Supply (IVS) Forecasting  
 
 <p align="center">
-  <img src="./Reports/OP.png" alt="Optimism Logo" />
+  <img src="./Images/OP.png" alt="Optimism Logo" />
 </p>
 
 ## 📌 Overview  
