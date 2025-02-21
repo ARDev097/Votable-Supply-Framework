@@ -1,0 +1,19 @@
+version: '3'
+services:
+  votable-supply-framework:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: votable-supply-framework  # Define the custom image name here
+    ports:
+      - "8888:8888"  # Expose Jupyter Notebook on port 8888
+    volumes:
+      - .:/app  # Mount the current project directory
+      - jupyter_data:/app/.jupyter  # Persist Jupyter configuration and notebooks
+    environment:
+      - JUPYTER_CONFIG_DIR=/app/.jupyter  # Specify the config directory for Jupyter
+    command: ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
+
+# Define persistent volumes for Jupyter
+volumes:
+  jupyter_data:
