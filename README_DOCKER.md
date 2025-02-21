@@ -70,7 +70,7 @@ Once the Jupyter Notebook interface opens, you will see a directory structure th
 ---
 
 ### 6️⃣ Running the Analysis
-To run the analysis, follow the instructions in the [analysis README documentation](Projects_Resources_and_Documentation.md). This documentation provides a detailed guide on which scripts to run, the purpose of each, and the steps to perform the analysis.
+To run the analysis, follow the instructions in the [analysis README documentation](Runbook.md). This documentation provides a detailed guide on which scripts to run, the purpose of each, and the steps to perform the analysis.
 
 - If you need to adjust any settings within the scripts, you can do so in the `config.yaml` file located in each folder. This file contains the configuration settings for the respective scripts, allowing you to modify parameters as needed for your analysis.
 
