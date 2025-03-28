@@ -81,7 +81,7 @@ For a detailed understanding of the methodologies, data sources, and execution p
 - Execution workflows and analysis techniques  
 - Additional research insights  
 
-📑 **<a href="Reports/DIVS Final Report.pdf" target="_blank">DIVS Final Report</a>** – A comprehensive report detailing the methodology, findings, and implications of the Decentralized Ideal Votable Supply (DIVS) model.
+📑 **<a href="https://docs.google.com/document/d/1eA9dBjHVfe7N5PuzEVzGf6wtfeqoaUM3cRqDc0Oupmw/edit?usp=sharing" target="_blank">DIVS Final Report</a>** – A comprehensive report detailing the methodology, findings, and implications of the Decentralized Ideal Votable Supply (DIVS) model.
 
 📖 **[Read the full Project Resources & Documentation](./Runbook_Documentation.md)**  
 
